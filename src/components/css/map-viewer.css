@@ -1,0 +1,8 @@
+.oal-map-container {
+    height: 100%;
+    width: calc(100% - 30vw);
+}
+
+.ol-overlaycontainer-stopevent {
+    display: none;
+}

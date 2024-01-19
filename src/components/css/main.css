@@ -1,0 +1,55 @@
+.main {
+    display: flex;
+    padding-left: 70px;
+    height: 100vh;
+    width: calc(100% - 70px)
+}
+
+.main .current-events {
+    padding: 20px;
+    width: 30vw;
+    border-right: 1px solid var(--gray);
+}
+
+.search-input label {
+    margin-bottom: 15px;
+    font-size: 1.4em;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.search-input label svg {
+    font-size: 1em;
+    margin-left: 5px;
+}
+
+.search-input input {
+    padding: 11px;
+    border-radius: 5px;
+    border: 1px solid var(--gray);
+    width: 100%;
+    font-family: 'Gotham';
+}
+
+.search-input .cancel-btn {
+    border-radius: 5px;
+    width: 100%;
+    padding: 11px;
+    text-align: center;
+    cursor: pointer;
+    display: block;
+    background-color: var(--blue);
+    color: #fff;
+    border: 1px solid blue;
+    margin-block: 8px;
+}
+
+.search-input select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--gray);
+    width: 100%;
+    
+}
