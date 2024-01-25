@@ -1,6 +1,6 @@
-.oal-map-container {
-    height: 100%;
-    width: calc(100% - 30vw);
+.ol-map-container {
+    min-height: 100%;
+    min-width: calc(100% - 30vw);
 }
 
 .ol-overlaycontainer-stopevent {

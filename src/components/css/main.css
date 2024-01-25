@@ -1,13 +1,13 @@
 .main {
     display: flex;
-    padding-left: 70px;
     height: 100vh;
-    width: calc(100% - 70px)
+    width: calc(100%)
 }
 
 .main .current-events {
     padding: 20px;
     width: 30vw;
+    overflow-y: hidden;
     border-right: 1px solid var(--gray);
 }
 
@@ -17,7 +17,7 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-end;
 }
 
 .search-input label svg {
@@ -44,12 +44,4 @@
     color: #fff;
     border: 1px solid blue;
     margin-block: 8px;
-}
-
-.search-input select {
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid var(--gray);
-    width: 100%;
-    
 }

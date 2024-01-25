@@ -1,16 +1,11 @@
 .task-list {
-    height: 100%;
+    height: calc(100vh - 160px);
     margin-top: 10px;
     overflow-y: scroll;
     scrollbar-width: none;
 }
 
-.task-list::-webkit-scrollbar { 
-    display: none;
-}
-
 .task-list li {
-    cursor: pointer;
     padding: 10px;
     border-radius: 5px;
     margin-block: 10px;
@@ -41,7 +36,7 @@ li .description button {
     border: none;
     padding: 8px;
     border-radius: 5px;
-    cursor: help;
+    cursor: pointer;
 }
 
 li progress {

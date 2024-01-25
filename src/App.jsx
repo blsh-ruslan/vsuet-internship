@@ -1,14 +1,14 @@
-import AsideBar from './components/AsideBar';
 import Main from './components/Main';
 
-export default function App() {
+const App = () => {
 	return (
 		<>
 			<div className="app">
-				<AsideBar />
 				<Main />
 			</div>
-			<h2 id="notAvailable">Not available on phones, sry :(</h2>
+			<h2 id="notAvailable">Нет версии для мобильных устройств :(</h2>
 		</>
 	);
-}
+};
+
+export default App;
